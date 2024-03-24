@@ -7,14 +7,26 @@
     <title>Form</title>
     
     <script type="module" crossorigin src="/goit-js-hw-09/commonHelpers2.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/styles-969e50e3.js">
-    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-8339e79d.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/styles-3c9165a5.js">
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-a5f3d228.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
-      <h1>Welcome to Gallery</h1>
+      <h1>Welcome to Form</h1>
     </section>
+    <form class="feedback-form" autocomplete="off">
+      <label>
+        Email
+        <input type="email" name="email" autofocus />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="8"></textarea>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+
     
   </body>
 </html>
