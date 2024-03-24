@@ -1,0 +1,64 @@
+/* Стилізація форми */
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 296px;
+  background-color: #fff;
+}
+
+/* Стилізація елементів форми */
+.feedback-form label {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  min-height: 40px;
+  padding-left: 16px;
+  margin-top: 8px;
+}
+
+.feedback-form textarea {
+  resize: none;
+}
+
+.feedback-form button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  border: none;
+  background: #4e75ff;
+  margin-top: 16px;
+}
+
+.feedback-form button:hover {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #6c8cff;
+}
+
+label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
